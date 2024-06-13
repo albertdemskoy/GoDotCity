@@ -5,12 +5,12 @@ public static class VectorOps {
         return new Vector3(
             Mathf.Lerp(first.X,second.X,a), 
             Mathf.Lerp(first.Y,second.Y,a), 
-            Mathf.Lerp(first.Y,second.Y,a));
+            Mathf.Lerp(first.Z,second.Z,a));
     }
     public static Vector3 Lerp(Vector3 first, Vector3 second, double a) {
         return new Vector3(
             Mathf.Lerp(first.X,second.X,(float)a), 
             Mathf.Lerp(first.Y,second.Y,(float)a), 
-            Mathf.Lerp(first.Y,second.Y,(float)a));
+            Mathf.Lerp(first.Z,second.Z,(float)a));
     }
 }

@@ -9,7 +9,7 @@
 
 [node name="Builder" type="Node3D" parent="." node_paths=PackedStringArray("selector", "view_camera", "gridmap")]
 script = ExtResource("1_jybm7")
-structures = Array[Resource("res://scripts/structure.gd")]([ExtResource("2_bwyku"), ExtResource("3_6fpyf")])
+structures = Array[Resource("res://scripts/Structure.cs")]([ExtResource("2_bwyku"), ExtResource("3_6fpyf")])
 selector = NodePath("Selector")
 view_camera = NodePath("../View/Camera3D")
 gridmap = NodePath("../GridMap")

@@ -1,3 +1,4 @@
+using System;
 using Godot;
 
 public partial class Structure : Resource
@@ -9,4 +10,8 @@ public partial class Structure : Resource
     [ExportSubgroup("Gameplay")]
     [Export]
     public int Price {get; set;}
+
+    [ExportSubgroup("Gameplay")]
+    [Export]
+    public string Name {get; set;}
 }
